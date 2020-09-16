@@ -13,6 +13,13 @@
 ---
 ![Komodo Logo](https://i.imgur.com/E8LtkAa.png "Komodo Logo")
 
+FAIR is a new smart chain based on komodo code
+
+FAIR coin is meant to be launched fairly and remain fair to investors and miners in every possible way. 
+
+I am working alone on this project so build your wallet and start mining/staking as soon as you can.
+
+I will often update this repos so check them constantly or follow us on discord.
 
 ## Komodo
 
@@ -48,13 +55,16 @@ This is the official Komodo sourcecode repository based on https://github.com/jl
 [See this article for more details](https://support.komodoplatform.com/en/support/solutions/articles/29000024515-how-to-claim-the-kmd-active-user-reward-in-agama)
 
 ## Tech Specification
-- Max Supply: 200 million KMD
-- Block Time: 60 seconds
-- Block Reward: 3 KMD
+- Max Supply: +/- 2000 mil FAIR
+- Block Time: 30 seconds
+- Block Reward: 60, 45, 35, 25, 12.5, 6.25, 3.125 FAIR
+- Confirmations: 51 Blocks
+- Pos/Pow: 40/60
+- Reward Eras: 100000,250000,375000,550000,1000000,1350000,2500000
 - Mining Algorithm: Equihash
 
 ## About this Project
-Komodo is based on Zcash and has been extended by our innovative consensus algorithm called dPoW which utilizes Bitcoin's hashrate to store Komodo blockchain information into the Bitcoin blockchain. Other new and native Komodo features are the privacy technology called JUMBLR, our assetchain capabilities (one click plug and play blockchain solutions) and a set of financial decentralization and interoperability technologies. More details are available under https://komodoplatform.com/ and https://blog.komodoplatform.com.
+FAIR on Komodo is based on Zcash and has been extended by our innovative consensus algorithm called dPoW which utilizes Bitcoin's hashrate to store Komodo blockchain information into the Bitcoin blockchain. Other new and native Komodo features are the privacy technology called JUMBLR, our assetchain capabilities (one click plug and play blockchain solutions) and a set of financial decentralization and interoperability technologies. More details are available under https://komodoplatform.com/ and https://blog.komodoplatform.com.
 
 ## Getting started
 
@@ -65,9 +75,9 @@ Komodo is based on Zcash and has been extended by our innovative consensus algor
 sudo apt-get install build-essential pkg-config libc6-dev m4 g++-multilib autoconf libtool ncurses-dev unzip git python python-zmq zlib1g-dev wget libcurl4-gnutls-dev bsdmainutils automake curl libsodium-dev
 ```
 
-### Build Komodo
+### Build FAIR
 
-This software is based on zcash and considered experimental and is continously undergoing heavy development.
+This software is based on komodo and zcash and considered experimental and is continously undergoing heavy development.
 
 The dev branch is considered the bleeding edge codebase while the master-branch is considered tested (unit tests, runtime tests, functionality). At no point of time do the Komodo Platform developers take any responsbility for any damage out of the usage of this software. 
 Komodo builds for all operating systems out of the same codebase. Follow the OS specific instructions from below.
@@ -145,8 +155,8 @@ rpcuser=yourrpcusername
 rpcpassword=yoursecurerpcpassword
 rpcbind=127.0.0.1
 txindex=1
-addnode=77.75.121.138
-addnode=95.213.238.100
+addnode=5.189.131.107
+addnode=95.179.186.109
 addnode=94.130.148.142
 addnode=103.6.12.105
 addnode=139.99.209.214
@@ -156,19 +166,19 @@ addnode=200.25.4.38
 addnode=139.99.136.148
 
 ```
-### Create your own Blockchain based on Komodo
+### Create your own Blockchain based on FAIR/Komodo
 
 Komodo allows anyone to create a runtime fork which represents an independent Blockchain. Below are the detailed instructions:
 Setup two independent servers with at least 1 server having a static IP and build komodod on those servers.  
 
 #### On server 1 (with static IP) run:
 ```shell
-./komodod -ac_name=name_of_your_chain -ac_supply=100000 -bind=ip_of_server_1 &
+./komodod -ac_cc=808 -ac_name=name_of_your_chain -ac_supply=100000 -bind=ip_of_server_1 &
 ```
 
 #### On server 2 run:
 ```shell
-./komodod -ac_name=name_of_your_chain -ac_supply=100000 -addnode=ip_of_server_1 -gen &
+./komodod -ac_cc=808 -ac_name=name_of_your_chain -ac_supply=100000 -addnode=ip_of_server_1 -gen &
 ```
 
 **Komodo is based on Zcash which is unfinished and highly experimental.** Use at your own risk.
