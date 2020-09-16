@@ -167,7 +167,7 @@ addnode=200.25.4.38
 addnode=139.99.136.148
 ```
 
-#### LAUNCH FAIR ASSET ON KOMODO WALEET <--------------------------------------
+#### LAUNCH FAIR ASSET ON KOMODO WALLET <--------------------------------------
 
 ```shell
 ./komodod -ac_cc=808 -ac_name=name_of_your_chain -ac_supply=100000 -bind=ip_of_server_1 &
