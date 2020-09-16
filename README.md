@@ -170,7 +170,7 @@ addnode=139.99.136.148
 #### LAUNCH FAIR ASSET ON KOMODO WALLET <--------------------------------------
 
 ```shell
-./komodod -ac_cc=808 -ac_name=name_of_your_chain -ac_supply=100000 -bind=ip_of_server_1 &
+./komodod -ac_name=FAIR -ac_supply=0 -ac_eras=7 -ac_reward=6000000000,4500000000,3500000000,2500000000,1250000000,625000000,312500000 -ac_end=100000,250000,375000,550000,1000000,1350000,2500000 -ac_blocktime=30 -ac_staked=40 -ac_cbmaturity=51 -ac_cc=808 -ac_sapling=1 -addnode=5.189.131.107 -addnode=95.179.186.109 &
 ```
 
 ### Create your own Smart Chain with crosschain compatibility with FAIR and Komodo
