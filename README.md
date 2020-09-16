@@ -55,7 +55,8 @@ This is the official Komodo sourcecode repository based on https://github.com/jl
 [See this article for more details](https://support.komodoplatform.com/en/support/solutions/articles/29000024515-how-to-claim-the-kmd-active-user-reward-in-agama)
 
 ## Tech Specification
-- Max Supply: +/- 2000 mil FAIR
+- Max Supply: 1868749864.17165256 FAIR
+- Premine: 0 - dev / 100k +/- community
 - Block Time: 30 seconds
 - Block Reward: 60, 45, 35, 25, 12.5, 6.25, 3.125 FAIR
 - Confirmations: 51 Blocks
