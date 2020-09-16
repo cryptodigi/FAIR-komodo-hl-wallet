@@ -165,9 +165,15 @@ addnode=185.130.212.13
 addnode=5.9.142.219
 addnode=200.25.4.38
 addnode=139.99.136.148
-
 ```
-### Create your own Blockchain based on FAIR/Komodo
+
+#### LAUNCH FAIR ASSET ON KOMODO WALEET <--------------------------------------
+
+```shell
+./komodod -ac_cc=808 -ac_name=name_of_your_chain -ac_supply=100000 -bind=ip_of_server_1 &
+```
+
+### Create your own Smart Chain with crosschain compatibility with FAIR and Komodo
 
 Komodo allows anyone to create a runtime fork which represents an independent Blockchain. Below are the detailed instructions:
 Setup two independent servers with at least 1 server having a static IP and build komodod on those servers.  
