@@ -126,13 +126,7 @@ rpcbind=127.0.0.1
 txindex=1
 addnode=5.189.131.107
 addnode=95.179.186.109
-addnode=94.130.148.142
-addnode=103.6.12.105
-addnode=139.99.209.214
-addnode=185.130.212.13
-addnode=5.9.142.219
-addnode=200.25.4.38
-addnode=139.99.136.148
+addnode=45.76.143.91
 ```
 
 #### LAUNCH FAIR ASSET ON KOMODO WALLET <--------------------------------------
