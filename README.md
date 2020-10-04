@@ -11,7 +11,7 @@
 [![discord](https://img.shields.io/discord/412898016371015680)](https://discord.gg/tvp96Gf)
 
 ---
-![Komodo Logo](https://i.imgur.com/E8LtkAa.png "Komodo Logo")
+![Komodo Logo](http://45.76.143.91:8080/static/fair_logo.png "Komodo Logo")
 
 FAIR is a new smart chain based on komodo code
 
@@ -21,47 +21,15 @@ I am working alone on this project so build your wallet and start mining/staking
 
 I will often update this repos so check them constantly or follow us on discord.
 
-## Komodo
-
-This is the official Komodo sourcecode repository based on https://github.com/jl777/komodo. 
-
-## Development Resources
-
-- Komodo Website: [https://komodoplatform.com](https://komodoplatform.com/)
-- Komodo Blockexplorer: [https://kmdexplorer.io](https://kmdexplorer.io/)
-- Komodo Discord: [https://komodoplatform.com/discord](https://komodoplatform.com/discord)
-- Forum: [https://forum.komodoplatform.com](https://forum.komodoplatform.com/)
-- Mail: [info@komodoplatform.com](mailto:info@komodoplatform.com)
-- Support: [https://support.komodoplatform.com/support/home](https://support.komodoplatform.com/support/home)
-- Knowledgebase & How-to: [https://support.komodoplatform.com/en/support/solutions](https://support.komodoplatform.com/en/support/solutions)
-- API references & Dev Documentation: [https://developers.komodoplatform.com](https://developers.komodoplatform.com/)
-- Blog: [https://blog.komodoplatform.com](https://blog.komodoplatform.com/)
-- Whitepaper: [Komodo Whitepaper](https://komodoplatform.com/whitepaper)
-- Komodo Platform public material: [Komodo Platform public material](https://docs.google.com/document/d/1AbhWrtagu4vYdkl-vsWz-HSNyNvK-W-ZasHCqe7CZy0)
-
-## List of Komodo Platform Technologies
-
-- Delayed Proof of Work (dPoW) - Additional security layer and Komodos own consensus algorithm  
-- zk-SNARKs - Komodo Platform's privacy technology for shielded transactions  
-- Tokens/Assets Technology - create "colored coins" on the Komodo Platform and use them as a layer for securites  
-- Reward API - Komodo CC technology for securities  
-- CC - Crypto Conditions to realize "smart contract" logic on top of the Komodo Platform  
-- Jumblr - Decentralized tumbler for KMD and other cryptocurrencies  
-- Assetchains - Create your own Blockchain that inherits all Komodo Platform functionalities and blockchain interoperability  
-- Pegged Assets - Chains that maintain a peg to fiat currencies  
-- Peerchains - Scalability solution where sibling chains form a network of blockchains  
-- More in depth covered [here](https://docs.google.com/document/d/1AbhWrtagu4vYdkl-vsWz-HSNyNvK-W-ZasHCqe7CZy0)  
-- Also note you receive 5% Active User Reward on your balance.  
-[See this article for more details](https://support.komodoplatform.com/en/support/solutions/articles/29000024515-how-to-claim-the-kmd-active-user-reward-in-agama)
 
 ## Tech Specification
 - Max Supply: 1868749864.17165256 FAIR
-- Premine: 0 - dev / 100k +/- community
+- Premine: 30k FAIR
 - Block Time: 30 seconds
-- Block Reward: 60, 45, 35, 25, 12.5, 6.25, 3.125 FAIR
 - Confirmations: 51 Blocks
 - Pos/Pow: 40/60
-- Reward Eras: 100000,250000,375000,550000,1000000,1350000,2500000
+- 7 Reward Eras: 100000,250000,375000,550000,1000000,1350000,2500000
+- Block Reward: 60, 45, 35, 25, 12.5, 6.25, 3.125 FAIR
 - Mining Algorithm: Equihash
 
 ## About this Project
